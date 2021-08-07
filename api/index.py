@@ -18,7 +18,7 @@ templates=Jinja2Templates(directory='')
 # 在视图函数中传入request对象，用于在模板对象中传递上下文（同时接收路径参数info，将其传递到上下文中）
 async def index(request:Request):
     # 返回一个模板对象，同时使用上下文中的数据对模板进行渲染
-    return templates.TemplateResponse(name='price.html',context={'request':request})
+    return templates.TemplateResponse(name='.html',context={'request':request})
 @app.post('/')
 async def login(*,
     Author: str = Form(...)
