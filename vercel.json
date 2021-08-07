@@ -1,9 +1,7 @@
  {
    "version": 2,
-   "rewrites": [{ "source": "/", "destination": "/my.html" }]
- 
-   
-   "routes":[
+   "rewrites": [{ "source": "/", "destination": "/my.html" }], 
+   "routes": [
               { "src": "/API/", "dest": "api/index.py" },
               { "src": "/", "dest": "api/my.html" }
              ]  
