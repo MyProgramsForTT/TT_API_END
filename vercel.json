@@ -1,8 +1,7 @@
 
  {  
     "routes":[
-              { "src": "/", "dest": "api/search.py" },
-              { "src": "/playgames/", "dest": "api/index.py" }
+              { "src": "/", "dest": "api/index.py" }
              ]  
      
    }
