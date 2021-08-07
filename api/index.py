@@ -19,7 +19,7 @@ templates=Jinja2Templates(directory='')
 async def index(request:Request):
     # 返回一个模板对象，同时使用上下文中的数据对模板进行渲染
     return templates.TemplateResponse(name='price.html',context={'request':request})
-@app.post('/Route/')
+@app.post('/')
 async def login(*,
     Author: str = Form(...)
 ):
