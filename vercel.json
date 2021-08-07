@@ -2,7 +2,7 @@
  {  
     "routes":[
               { "src": "/API/", "dest": "api/index.py" },
-              { "src": "/", "dest": "/my.html" }
+              { "src": "/", "dest": "api/my.html" }
              ]  
      
    }
