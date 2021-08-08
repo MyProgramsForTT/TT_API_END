@@ -1,9 +1,8 @@
  {
-   "version": 2,
-   "rewrites": [{ "source": "/", "destination": "/my.html" }], 
    "routes": [
               { "src": "/API/", "dest": "api/index.py" },
-              { "src": "/my", "headers": {"cache-control": "s-maxage=1000"}, "dest": "/my.html" },
+              { "src": "/", "dest": "api/my.html" }
+
              ]  
      
    }
